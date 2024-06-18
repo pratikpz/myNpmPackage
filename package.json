@@ -1,14 +1,16 @@
 {
 	"name": "pratikpz",
-	"version": "1.0.5",
-	"description": "module cjs and esm",
-	"main": "dist/cjs/index.js",
-	"module": "dist/esm/index.js",
-	"types": "dist/types/index.d.ts",
+	"version": "1.0.6",
+	"description": "Fixed the module issue",
+	"main": "dist/index.js",
+	"module": "./dist/index.mjs",
+	"type": "module",
+	"types": "./dist/index.d.ts",
+	"typings": "dist/index.d.ts",
 	"scripts": {
-		"build:cjs": "tsc --project tsconfig.cjs.json",
-		"build:esm": "tsc --project tsconfig.esm.json",
-		"build": "npm run build:cjs && npm run build:esm"
+		"test": "echo \"Error: no test specified\" && exit 1",
+    "build":"tsup"
+
 	},
 	"devDependencies": {
 		"typescript": "^4.0.0"
@@ -19,10 +21,11 @@
 		"publish"
 	],
 	"author": "Pratik Parajuli",
-	"license": "ISC",
+	"license": "MIT",
 	"dependencies": {
 		"pratikpz": "^1.0.0",
 		"ts-node": "^10.9.2",
+		"tsup": "^8.1.0",
 		"typescript": "^5.4.5"
 	},
 	"repository": {
