@@ -1,31 +1,30 @@
 {
-  "name": "pratikpz",
-  "version": "1.0.0",
-  "description": "Learning to create my own npm package",
-  "type": "module",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "tsc"
-  },
-  "keywords": [
-    "learning",
-    "to",
-    "publish"
-  ],
-  "author": "Pratik Parajuli",
-  "license": "ISC",
-  "dependencies": {
-    "pratikpz": "^1.0.0",
-    "ts-node": "^10.9.2",
-    "typescript": "^5.4.5"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/pratikpz/myNpmPackage.git"
-  },
-  "bugs": {
-    "url": "https://github.com/pratikpz/myNpmPackage/issues"
-  },
-  "homepage": "https://github.com/pratikpz/myNpmPackage#readme"
+	"name": "pratikpz",
+	"version": "1.0.2",
+	"description": "Learning to create my own npm package",
+	"main": "dist/index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"build": "tsc"
+	},
+	"keywords": [
+		"learning",
+		"to",
+		"publish"
+	],
+	"author": "Pratik Parajuli",
+	"license": "ISC",
+	"dependencies": {
+		"pratikpz": "^1.0.0",
+		"ts-node": "^10.9.2",
+		"typescript": "^5.4.5"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/pratikpz/myNpmPackage.git"
+	},
+	"bugs": {
+		"url": "https://github.com/pratikpz/myNpmPackage/issues"
+	},
+	"homepage": "https://github.com/pratikpz/myNpmPackage#readme"
 }

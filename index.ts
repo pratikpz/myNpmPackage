@@ -1,3 +1,5 @@
-export default function hello (name:string):void{
+ const hello=function (name:string):void{
 console.log(`Hello ${name}`)
 }
+
+module.exports=hello;
