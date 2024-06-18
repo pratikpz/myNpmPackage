@@ -2,4 +2,4 @@
 console.log(`Hello ${name}`)
 }
 
-module.exports=hello;
+export default hello;
